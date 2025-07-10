@@ -3640,66 +3640,6 @@
   ],
   "systemMetrics": [
     {
-      "timestamp": "2025-07-10T20:31:36.640Z",
-      "memoryUsage": {
-        "used": 1714880792,
-        "total": 1749037056,
-        "percentage": 98.04713891664969
-      },
-      "apiCallsPerMinute": 0,
-      "errorRate": 0,
-      "averageResponseTime": 0,
-      "activeOperations": 0
-    },
-    {
-      "timestamp": "2025-07-10T20:32:36.639Z",
-      "memoryUsage": {
-        "used": 1714889352,
-        "total": 1749037056,
-        "percentage": 98.04762832880769
-      },
-      "apiCallsPerMinute": 0,
-      "errorRate": 0,
-      "averageResponseTime": 0,
-      "activeOperations": 0
-    },
-    {
-      "timestamp": "2025-07-10T20:33:36.641Z",
-      "memoryUsage": {
-        "used": 1714898784,
-        "total": 1749037056,
-        "percentage": 98.04816759697057
-      },
-      "apiCallsPerMinute": 0,
-      "errorRate": 0,
-      "averageResponseTime": 0,
-      "activeOperations": 0
-    },
-    {
-      "timestamp": "2025-07-10T20:34:36.641Z",
-      "memoryUsage": {
-        "used": 1715108304,
-        "total": 1749192704,
-        "percentage": 98.05142109716918
-      },
-      "apiCallsPerMinute": 0,
-      "errorRate": 0,
-      "averageResponseTime": 0,
-      "activeOperations": 0
-    },
-    {
-      "timestamp": "2025-07-10T20:35:36.641Z",
-      "memoryUsage": {
-        "used": 1715116880,
-        "total": 1749192704,
-        "percentage": 98.0519113804856
-      },
-      "apiCallsPerMinute": 0,
-      "errorRate": 0,
-      "averageResponseTime": 0,
-      "activeOperations": 0
-    },
-    {
       "timestamp": "2025-07-10T20:36:36.642Z",
       "memoryUsage": {
         "used": 1715125440,
@@ -4833,6 +4773,66 @@
         "used": 1714719216,
         "total": 1748881408,
         "percentage": 98.04662615522527
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:15:08.697Z",
+      "memoryUsage": {
+        "used": 1714928216,
+        "total": 1749037056,
+        "percentage": 98.04985035148393
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:16:08.725Z",
+      "memoryUsage": {
+        "used": 1714946512,
+        "total": 1749037056,
+        "percentage": 98.05089641279733
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:17:08.729Z",
+      "memoryUsage": {
+        "used": 1714954592,
+        "total": 1749037056,
+        "percentage": 98.05135838128291
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:18:08.736Z",
+      "memoryUsage": {
+        "used": 1714962672,
+        "total": 1749037056,
+        "percentage": 98.0518203497685
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:19:08.738Z",
+      "memoryUsage": {
+        "used": 1714970752,
+        "total": 1749037056,
+        "percentage": 98.05228231825409
       },
       "apiCallsPerMinute": 0,
       "errorRate": 0,
