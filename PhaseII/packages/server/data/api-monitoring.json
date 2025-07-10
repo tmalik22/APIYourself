@@ -1,0 +1,4844 @@
+{
+  "calls": [
+    {
+      "id": "997bf440-151a-4024-bbcf-2ee3f89fbfef",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 57,
+      "timestamp": "2025-07-04T01:56:48.533Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 45.6,
+        "download": 11.4,
+        "total": 57
+      }
+    },
+    {
+      "id": "f604d9ee-011c-4635-a66b-d409e888de25",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-04T01:57:37.249Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 1373,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "13a38ee5-dbf8-4e66-af1a-7d930e2c9f0f",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-04T01:57:45.741Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 1988,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "8131ea0d-edc6-4e9d-8bcf-6be35fdf8b68",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 1676,
+      "timestamp": "2025-07-04T12:31:47.035Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 2415,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1340.8000000000002,
+        "download": 335.20000000000005,
+        "total": 1676
+      }
+    },
+    {
+      "id": "130b84d4-bc94-4418-b295-f5a558f2eba5",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 36,
+      "timestamp": "2025-07-04T12:32:07.374Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 3064,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 28.8,
+        "download": 7.2,
+        "total": 36
+      }
+    },
+    {
+      "id": "9f071e1a-026f-41b3-88ea-4983c491d20a",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 26,
+      "timestamp": "2025-07-05T14:48:22.423Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 3335,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 20.8,
+        "download": 5.2,
+        "total": 26
+      }
+    },
+    {
+      "id": "d6d4df32-fa58-4656-8aa5-b1b6bde588ee",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 39,
+      "timestamp": "2025-07-05T14:48:30.695Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 3938,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 31.200000000000003,
+        "download": 7.800000000000001,
+        "total": 39
+      }
+    },
+    {
+      "id": "b08f248f-2ef6-43d2-93cf-049a2ba84c08",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 27,
+      "timestamp": "2025-07-05T15:27:49.077Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 4580,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 21.6,
+        "download": 5.4,
+        "total": 27
+      }
+    },
+    {
+      "id": "cda9fc3d-c20f-4689-ab6d-0823f3abc137",
+      "method": "GET",
+      "url": "/",
+      "statusCode": 200,
+      "duration": 230,
+      "timestamp": "2025-07-09T17:11:27.673Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/",
+      "operation": "GET /",
+      "timings": {
+        "ttfb": 184,
+        "download": 46,
+        "total": 230
+      }
+    },
+    {
+      "id": "f6e7c0fc-1e31-4ff3-9fda-a20a8f470daa",
+      "method": "GET",
+      "url": "/assets/index-BNlNu6Jc.css",
+      "statusCode": 200,
+      "duration": 7,
+      "timestamp": "2025-07-09T17:11:27.937Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-BNlNu6Jc.css",
+      "operation": "GET /assets/index-BNlNu6Jc.css",
+      "timings": {
+        "ttfb": 5.6000000000000005,
+        "download": 1.4000000000000001,
+        "total": 7
+      }
+    },
+    {
+      "id": "33f8e0a3-ff08-4321-b1d1-4266fd9edb70",
+      "method": "GET",
+      "url": "/assets/index-CGeX2Q60.js",
+      "statusCode": 200,
+      "duration": 22,
+      "timestamp": "2025-07-09T17:11:27.934Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-CGeX2Q60.js",
+      "operation": "GET /assets/index-CGeX2Q60.js",
+      "timings": {
+        "ttfb": 17.6,
+        "download": 4.4,
+        "total": 22
+      }
+    },
+    {
+      "id": "dd0dc500-226b-4cc1-a1d8-d9a13159aec7",
+      "method": "GET",
+      "url": "/api/models",
+      "statusCode": 200,
+      "duration": 54,
+      "timestamp": "2025-07-09T19:35:44.664Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /api/models",
+      "timings": {
+        "ttfb": 43.2,
+        "download": 10.8,
+        "total": 54
+      }
+    },
+    {
+      "id": "6d57d7e1-76c7-428b-960a-cb9769576d37",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 23,
+      "timestamp": "2025-07-09T20:02:07.323Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 18.400000000000002,
+        "download": 4.6000000000000005,
+        "total": 23
+      }
+    },
+    {
+      "id": "ee370cdc-c620-477a-9fa1-f1564a42b0c2",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 7,
+      "timestamp": "2025-07-09T20:26:27.191Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 8359,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 5.6000000000000005,
+        "download": 1.4000000000000001,
+        "total": 7
+      }
+    },
+    {
+      "id": "0d47ee5d-1fec-4d35-815e-537eb5c04b66",
+      "method": "HEAD",
+      "url": "/",
+      "statusCode": 200,
+      "duration": 13,
+      "timestamp": "2025-07-09T20:54:58.207Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/",
+      "operation": "HEAD /",
+      "timings": {
+        "ttfb": 10.4,
+        "download": 2.6,
+        "total": 13
+      }
+    },
+    {
+      "id": "6f5dc6a1-7480-4ea4-b574-7354ad9afefb",
+      "method": "GET",
+      "url": "/health",
+      "statusCode": 200,
+      "duration": 14,
+      "timestamp": "2025-07-09T20:56:41.109Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /health",
+      "timings": {
+        "ttfb": 11.200000000000001,
+        "download": 2.8000000000000003,
+        "total": 14
+      }
+    },
+    {
+      "id": "16435485-5e0d-4cdb-a1ee-cda0e574dffe",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-09T20:56:49.265Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "9d011dbd-3b45-4f42-bd18-9f93db5afe71",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T20:56:58.804Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 10341,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "0e5970a0-b44b-42d2-80e0-349d16a8c0d3",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T20:57:17.110Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 10794,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "7c8d299a-f0fa-4208-a768-d0839f3d4b85",
+      "method": "GET",
+      "url": "/api/plugins",
+      "statusCode": 200,
+      "duration": 9,
+      "timestamp": "2025-07-09T21:04:03.573Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 1687,
+      "success": true,
+      "endpoint": "/api/plugins",
+      "operation": "GET /api/plugins",
+      "timings": {
+        "ttfb": 7.2,
+        "download": 1.8,
+        "total": 9
+      }
+    },
+    {
+      "id": "8b37feff-7feb-4fbf-aba6-e50c597c3f51",
+      "method": "GET",
+      "url": "/api/projects",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T21:04:08.575Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 188,
+      "success": true,
+      "endpoint": "/api/projects",
+      "operation": "GET /api/projects",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "c28984cb-9c74-44c4-91c9-87b8a4bae569",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T21:04:36.489Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "6a644735-709a-4059-a427-b7e4378ab2e8",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 9,
+      "timestamp": "2025-07-09T21:40:21.539Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 7.2,
+        "download": 1.8,
+        "total": 9
+      }
+    },
+    {
+      "id": "65f02a68-ef63-4d7c-b94f-b7f3b49f47e5",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 63,
+      "timestamp": "2025-07-09T21:43:37.570Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 13266,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 50.400000000000006,
+        "download": 12.600000000000001,
+        "total": 63
+      }
+    },
+    {
+      "id": "5210c7e4-7447-43f4-a88e-af0b9233fe0d",
+      "method": "GET",
+      "url": "/api/n8n/templates",
+      "statusCode": 200,
+      "duration": 18,
+      "timestamp": "2025-07-09T21:43:44.276Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /api/n8n/templates",
+      "timings": {
+        "ttfb": 14.4,
+        "download": 3.6,
+        "total": 18
+      }
+    },
+    {
+      "id": "0820849f-8f8e-43fb-a5c2-61479c6df7f3",
+      "method": "GET",
+      "url": "/api/n8n/schema",
+      "statusCode": 200,
+      "duration": 21,
+      "timestamp": "2025-07-09T21:43:44.278Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /api/n8n/schema",
+      "timings": {
+        "ttfb": 16.8,
+        "download": 4.2,
+        "total": 21
+      }
+    },
+    {
+      "id": "2017cd28-bdfe-48ba-8a66-e9ba1074e0f1",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T21:43:46.996Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "e81a7522-fd93-4ab1-ad54-fbab07278f74",
+      "method": "GET",
+      "url": "/api/plugins/auth/google-sheets",
+      "statusCode": 200,
+      "duration": 21,
+      "timestamp": "2025-07-09T21:43:47.035Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /api/plugins/auth/google-sheets",
+      "timings": {
+        "ttfb": 16.8,
+        "download": 4.2,
+        "total": 21
+      }
+    },
+    {
+      "id": "20116944-b54e-4f4e-9a25-ade45b2720ed",
+      "method": "GET",
+      "url": "/assets/index-CGeX2Q60.js",
+      "statusCode": 304,
+      "duration": 7,
+      "timestamp": "2025-07-09T21:43:47.203Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-CGeX2Q60.js",
+      "operation": "GET /assets/index-CGeX2Q60.js",
+      "timings": {
+        "ttfb": 5.6000000000000005,
+        "download": 1.4000000000000001,
+        "total": 7
+      }
+    },
+    {
+      "id": "3692944b-1b3d-4d99-aae3-3f10c6778624",
+      "method": "GET",
+      "url": "/assets/index-BNlNu6Jc.css",
+      "statusCode": 304,
+      "duration": 18,
+      "timestamp": "2025-07-09T21:43:47.206Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-BNlNu6Jc.css",
+      "operation": "GET /assets/index-BNlNu6Jc.css",
+      "timings": {
+        "ttfb": 14.4,
+        "download": 3.6,
+        "total": 18
+      }
+    },
+    {
+      "id": "d103f41a-2334-4faa-abdf-e546680e9bcf",
+      "method": "GET",
+      "url": "/.well-known/appspecific/com.chrome.devtools.json",
+      "statusCode": 200,
+      "duration": 22,
+      "timestamp": "2025-07-09T21:43:47.365Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /.well-known/appspecific/com.chrome.devtools.json",
+      "timings": {
+        "ttfb": 17.6,
+        "download": 4.4,
+        "total": 22
+      }
+    },
+    {
+      "id": "82c21a59-c5d1-4bf1-b376-d3be4b989499",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T21:49:57.897Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 17481,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "88a0f94e-bd55-45a7-adbb-0e79a62f0bfc",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T21:50:08.940Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 17947,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "723a1f24-2ea2-47a9-9aa7-3f01c456f5a4",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 5,
+      "timestamp": "2025-07-09T21:57:41.873Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 18476,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 4,
+        "download": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "71f72aff-be48-488f-a827-0d00f20a9fae",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T22:00:54.308Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 18942,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "958ca87b-a2a9-4b78-950a-d15bbaea6b8f",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-09T22:00:58.006Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "c4769e0e-a170-422d-832b-80d9c3c38846",
+      "method": "GET",
+      "url": "/api/plugins/auth/google-sheets",
+      "statusCode": 304,
+      "duration": 22,
+      "timestamp": "2025-07-09T22:00:58.032Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "*",
+      "operation": "GET /api/plugins/auth/google-sheets",
+      "timings": {
+        "ttfb": 17.6,
+        "download": 4.4,
+        "total": 22
+      }
+    },
+    {
+      "id": "fa3eb2fb-1bc2-44c8-9304-467028fa675f",
+      "method": "GET",
+      "url": "/assets/index-CGeX2Q60.js",
+      "statusCode": 304,
+      "duration": 4,
+      "timestamp": "2025-07-09T22:00:58.179Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-CGeX2Q60.js",
+      "operation": "GET /assets/index-CGeX2Q60.js",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "9a58ab72-0fea-4538-89ed-f050554e7c16",
+      "method": "GET",
+      "url": "/assets/index-BNlNu6Jc.css",
+      "statusCode": 304,
+      "duration": 12,
+      "timestamp": "2025-07-09T22:00:58.186Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": true,
+      "endpoint": "/assets/index-BNlNu6Jc.css",
+      "operation": "GET /assets/index-BNlNu6Jc.css",
+      "timings": {
+        "ttfb": 9.600000000000001,
+        "download": 2.4000000000000004,
+        "total": 12
+      }
+    },
+    {
+      "id": "f8c931b0-7977-4b31-b6ba-ffc5f60f4b7c",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 5,
+      "timestamp": "2025-07-09T22:02:25.231Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 21556,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 4,
+        "download": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "5e3776a8-3133-4faa-873f-1466ab01784a",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T22:02:29.116Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 22026,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "ba98b83d-0031-4180-a465-ca0f8a44cb57",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T22:02:59.125Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 22668,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "f75e686e-9ddd-47a2-8c31-7b1c8b15fc75",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:03:29.121Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 23221,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "65e9d64a-f63a-4cce-adda-05d209209c69",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T22:03:59.126Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 23770,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "dbc99501-459f-4ddb-b147-bd7033ce38e7",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 6,
+      "timestamp": "2025-07-09T22:04:07.282Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 4.800000000000001,
+        "download": 1.2000000000000002,
+        "total": 6
+      }
+    },
+    {
+      "id": "8daee3ce-8874-4b42-a94f-b38781e8aea3",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:04:29.120Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 24685,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "16ae206e-71f7-4ef2-9df9-27dc8e17ff3f",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:04:59.126Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 25243,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "0742f2eb-68e6-455e-ade6-aad8e115c137",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:05:29.118Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 25779,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "ad9ca16a-1535-4786-b3c2-7c4278b76835",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:05:59.122Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 26415,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b65604cf-56a4-41c2-b114-a8605aa5f537",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-09T22:06:29.126Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 26952,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "f8d1b511-34c3-4a37-a61a-71d8993ccc33",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-09T22:06:45.656Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27436,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "556e9249-ae6f-4a5f-8eb9-db272e3230b7",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-09T22:06:59.119Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27530,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d001a67f-194c-4761-82ad-2a4c68c28333",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-09T22:09:22.094Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27640,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "05cd9bd5-9ffd-497e-81b3-a9acc2a91ea4",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-09T22:11:14.777Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27641,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "0af72f25-271b-4e76-823d-8d9f768d7f27",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 10,
+      "timestamp": "2025-07-10T00:27:02.940Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 8,
+        "download": 2,
+        "total": 10
+      }
+    },
+    {
+      "id": "bb0c42b6-1188-4af2-a210-d838770aaa8e",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-10T00:27:08.636Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27614,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "b5a30dbf-a186-495e-9274-d95844f99a4f",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-10T00:27:15.635Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.101.2 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 27504,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "4f7139e6-cd56-431d-b229-8798ebde3183",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-10T00:30:10.620Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "a73f6048-2328-48a2-baf4-b38b1aa836ae",
+      "method": "GET",
+      "url": "/api/plugins/auth/google-sheets",
+      "statusCode": 404,
+      "duration": 5,
+      "timestamp": "2025-07-10T00:30:10.640Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/plugins/auth/google-sheets",
+      "operation": "GET /api/plugins/auth/google-sheets",
+      "timings": {
+        "ttfb": 4,
+        "download": 1,
+        "total": 5
+      }
+    },
+    {
+      "id": "e76acf73-1483-4040-8dc0-204e96a5d6d7",
+      "method": "GET",
+      "url": "/api/evaluation/dashboard",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T00:30:16.996Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 28103,
+      "success": true,
+      "endpoint": "/api/evaluation/dashboard",
+      "operation": "GET /api/evaluation/dashboard",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "22bf0209-2924-4575-9f10-85802dfb6280",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T00:31:48.292Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "08f4e967-ed9f-42be-a4f6-fc772b5cb485",
+      "method": "GET",
+      "url": "/api/plugins/auth/jira",
+      "statusCode": 404,
+      "duration": 3,
+      "timestamp": "2025-07-10T00:31:48.320Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 0,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/plugins/auth/jira",
+      "operation": "GET /api/plugins/auth/jira",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "09a3f7de-b3bf-44e8-b8ad-e6bb4855451f",
+      "method": "GET",
+      "url": "/api/plugins/auth/google-sheets",
+      "statusCode": 200,
+      "duration": 10,
+      "timestamp": "2025-07-10T00:56:58.942Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 117,
+      "success": true,
+      "endpoint": "/api/plugins/auth/google-sheets",
+      "operation": "GET /api/plugins/auth/google-sheets",
+      "timings": {
+        "ttfb": 8,
+        "download": 2,
+        "total": 10
+      }
+    },
+    {
+      "id": "f4987e73-b4dd-469c-9a1b-142f748da6cd",
+      "method": "GET",
+      "url": "/api/health",
+      "statusCode": 200,
+      "duration": 12,
+      "timestamp": "2025-07-10T15:12:57.216Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 96,
+      "success": true,
+      "endpoint": "/api/health",
+      "operation": "GET /api/health",
+      "timings": {
+        "ttfb": 9.600000000000001,
+        "download": 2.4000000000000004,
+        "total": 12
+      }
+    },
+    {
+      "id": "53f6454e-74a6-4bc5-acd5-5e463f58e400",
+      "method": "GET",
+      "url": "/api/projects",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:13:30.040Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 188,
+      "success": true,
+      "endpoint": "/api/projects",
+      "operation": "GET /api/projects",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b51cda5e-98a4-43a3-869d-d80e415d79b3",
+      "method": "POST",
+      "url": "/api/chat/message",
+      "statusCode": 200,
+      "duration": 11,
+      "timestamp": "2025-07-10T15:30:36.611Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 78,
+      "responseSize": 239,
+      "success": true,
+      "endpoint": "/api/chat/message",
+      "operation": "POST /api/chat/message",
+      "timings": {
+        "ttfb": 8.8,
+        "download": 2.2,
+        "total": 11
+      }
+    },
+    {
+      "id": "a14dd2ce-c6f9-40ca-85ab-4386cdd1badb",
+      "method": "POST",
+      "url": "/api/generate-api",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:30:51.669Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 68,
+      "responseSize": 631,
+      "success": true,
+      "endpoint": "/api/generate-api",
+      "operation": "POST /api/generate-api",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "2127cff3-db2d-4290-823c-ca8bbbd23737",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161451670/progress",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-10T15:31:16.447Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 73,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161451670/progress",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "81b62690-521c-4378-87fd-85fbfaabc82c",
+      "method": "POST",
+      "url": "/api/generate-api/api-1752161451670/finalize",
+      "statusCode": 200,
+      "duration": 6,
+      "timestamp": "2025-07-10T15:31:23.577Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 1677,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/finalize",
+      "operation": "POST /api/generate-api/api-1752161451670/finalize",
+      "timings": {
+        "ttfb": 4.800000000000001,
+        "download": 1.2000000000000002,
+        "total": 6
+      }
+    },
+    {
+      "id": "64e006a6-546a-44f1-bd48-d0d55069c96f",
+      "method": "GET",
+      "url": "/api/projects",
+      "statusCode": 200,
+      "duration": 3,
+      "timestamp": "2025-07-10T15:31:32.263Z",
+      "userAgentInfo": "curl/8.4.0",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 1866,
+      "success": true,
+      "endpoint": "/api/projects",
+      "operation": "GET /api/projects",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "77ec87e2-03cf-49e1-887f-31fb1c316015",
+      "method": "POST",
+      "url": "/api/chat/message",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:28.351Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 4714,
+      "responseSize": 239,
+      "success": true,
+      "endpoint": "/api/chat/message",
+      "operation": "POST /api/chat/message",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d4be3328-6b53-419c-82a7-b770217a49e4",
+      "method": "POST",
+      "url": "/api/generate-api",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:28.366Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 4606,
+      "responseSize": 5170,
+      "success": true,
+      "endpoint": "/api/generate-api",
+      "operation": "POST /api/generate-api",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d3e0785d-e95c-4ec9-9e90-32a7501f6fa2",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:29.376Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 72,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "0ee78cb4-86ef-4312-9e0f-5c187f8755e3",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 10,
+      "timestamp": "2025-07-10T15:33:30.420Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 77,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 8,
+        "download": 2,
+        "total": 10
+      }
+    },
+    {
+      "id": "5b82057a-3c02-4d60-8328-0067cccfb696",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:31.436Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 83,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "fdaa6fd3-551a-4dea-8539-6df2e8657a98",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 304,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:32.449Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 83,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "586fe316-62ed-4151-9e09-13391383301e",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:33.461Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 75,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "9150564b-b38b-4a3c-b6fd-19431c3c8ed5",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:34.470Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 91,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "fb934fdb-b948-4784-b6cd-c2e916674a01",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:35.477Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 86,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "32364cf8-8308-4100-a09f-2b6a326318cb",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 200,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:36.487Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 73,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "22ac260c-8b0f-425a-8de1-d365b75e9939",
+      "method": "POST",
+      "url": "/api/generate-api/api-1752161608367/finalize",
+      "statusCode": 200,
+      "duration": 4,
+      "timestamp": "2025-07-10T15:33:36.500Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 11418,
+      "success": true,
+      "endpoint": "/api/generate-api/:projectId/finalize",
+      "operation": "POST /api/generate-api/api-1752161608367/finalize",
+      "timings": {
+        "ttfb": 3.2,
+        "download": 0.8,
+        "total": 4
+      }
+    },
+    {
+      "id": "97ae7470-7f7f-4be4-8cec-986d6c22a5cf",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:38.513Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "e9d5ffe7-d8cd-49d6-bfa1-d70aec90b954",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:40.524Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "70b19cc6-03e0-4f99-85e5-e8305bf3fbe1",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:42.534Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d82df1bd-4ead-4672-b0d6-9a8c90e21865",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:44.543Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "9249834e-98c7-468e-8729-7027d1a36130",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:46.558Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "2934b73f-c0b8-48fb-8731-aa48cba94feb",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:48.567Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "2bdaf2fc-e80e-420e-8f45-4b5db5dedf6c",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:33:50.576Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "78ded1c0-3f79-47e9-8ffd-4ce345d196eb",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:52.594Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "da377e90-c9f6-444d-852a-df2b009e356d",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:54.602Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "69a4dc0b-f29c-48ed-8bcd-6494633c3250",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 0,
+      "timestamp": "2025-07-10T15:33:56.610Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0,
+        "download": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "12b460ce-9f00-4b81-91e4-b730bb1f08c7",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:33:58.627Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "950195d4-2b91-42b1-b62d-ff437d7fe2d2",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:00.636Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "300e7c6e-1ae7-4cc1-a38a-4087bc6dbd18",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:02.645Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "8cd93735-269f-4f6e-8f93-7a72c4a933af",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:04.655Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "6ea6b7f6-358d-4ee0-8849-42950124a803",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 3,
+      "timestamp": "2025-07-10T15:34:06.665Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 2.4000000000000004,
+        "download": 0.6000000000000001,
+        "total": 3
+      }
+    },
+    {
+      "id": "da572d42-00f9-411d-b7c2-efeb96763798",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:08.676Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d5fe4426-23e4-481c-ae26-8f187e6f8ef5",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:10.690Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b8bfbaac-beac-4e54-82d3-68810524c86f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:12.699Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "6e1c3079-48c4-4484-913b-9efada5d1011",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:14.709Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "83285e85-0a7c-4f34-8dd5-efb67b94ec8e",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:16.723Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "3a8fc110-64f5-4043-993e-76663bd98bfc",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:18.733Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "fa85691c-b624-49d8-9bbf-7222f94f536a",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:20.745Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "eafb580d-2b7d-48a5-ac26-229d75c9ba7d",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:22.759Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "5eaecc7c-3c82-4a0a-8128-870925367705",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:24.770Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "9d1ed790-1395-4cdb-a16e-a61a7c61e56d",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:26.781Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "8baf06e6-764d-4238-8260-3e2ef9678e71",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:28.795Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "a37d59d9-30bf-43bf-99ec-2756478b9f8b",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:30.805Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "d692cef3-1767-4553-be9e-2b38a89814b6",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:32.815Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "636ce5dd-5ba5-4e74-ab23-9ff336e046e1",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:34.828Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "f0949e0b-58db-46ff-80d3-accb6d8b56e1",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:36.839Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "00c47f68-2dc7-4155-af9c-3419a2f2cf81",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:38.851Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "3fd22bc7-a19d-4937-a2d0-76e35f8da327",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:40.867Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "0ed1b0ba-f09d-429d-9e42-0f9519bac91a",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:42.878Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "2a867735-7a3c-4aaf-9dab-c7a073c0a6d8",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:44.889Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "e1d21de5-6ccd-40fb-a439-de395f25c360",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:46.905Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "6c577f7f-4925-4851-888c-8a27f4d6e10e",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:48.916Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "3bc5e4ae-1dda-49e1-ad49-ca084bbe71c0",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:50.927Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "3f814589-085e-4988-916b-42c673c2c4e4",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:52.943Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "4d771fd1-742c-495c-9617-1969ec5c4b2f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:54.954Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b5f1197a-cc9b-4224-9045-1c61243500e4",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:34:56.965Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "017788fe-913b-414c-9d3f-e07f4d1a78f3",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:34:58.980Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "f1419a08-a33f-4999-a2e7-d6bf1b93639a",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:00.991Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "01197bb5-7610-418b-868c-dee52f5ceb6a",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:03.002Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b9c4d21f-674d-40d4-88f5-f995ea1271bd",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:05.016Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "eca3f814-eb31-4972-a7ff-a8bbb18c452e",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:07.025Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "f9a56917-c6f6-40ca-b4b1-022e5113ed9b",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:09.035Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "94d0c4a8-5b17-4941-8084-3f19328015cb",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:11.051Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "46d6283b-cbe7-4d64-a748-85108b17825f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:13.062Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "9088d1ae-6cf6-4c6e-b151-221dcf0023c2",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:15.074Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "398fc03a-a406-4cba-ae5f-9b45196ee907",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:17.088Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "e29c914b-56f8-4fd0-a675-e6d0376f1f89",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:19.098Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "7e825abf-4173-4424-b6ba-ccbdf7e8678e",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:21.109Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "43b7b6f5-0670-4c76-b510-9ddc7844c0e1",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:23.125Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "110d2834-efac-4528-b1b3-2ce984e0e6e2",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:25.135Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "f78a76c5-8ee1-4ad9-b71f-c8aa6e44fc7c",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:27.147Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "218eef98-e3ee-498c-9833-4f109bd1be02",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:29.163Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "959b3282-6136-4496-91f4-ef94879bc8c0",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:31.175Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "b07bbabb-76e4-4929-81c8-0b55effe3768",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:33.186Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "b86ae03f-ed25-4b71-b229-02a83c79d59f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:35.198Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "9b83dbf4-f1ab-4cd8-80f0-db63a5762b95",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:37.211Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "b27a658c-dcda-4b06-a4ff-a089a750a490",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:39.222Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "32101de7-3f71-406c-a26a-a55c06d8073f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:41.236Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "38a6a005-18bd-44fe-8f0c-80d5fb5b26e4",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:43.246Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "4967461c-db69-44ee-b679-44d97b61be50",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:45.257Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "7123c0a6-2ec9-4745-bdc3-68ed97687473",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:47.266Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "7b6e9786-c816-42d7-88c0-4ba59e523f7d",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:49.276Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "5a18394e-b613-4fa1-8c88-9da80184c101",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:51.287Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "207c99f2-dc61-4580-bc70-b63ecd4b16ad",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:53.302Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "0b677dd8-4f4b-4bc9-bf64-c3c580edbb15",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:35:55.312Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "fc872cd5-537e-49aa-b879-9445a8485c71",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:57.323Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "638a8bad-1bba-4ee7-818f-399e3cf35188",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:35:59.335Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "d7404d77-78eb-407a-893a-f6cda8add2a9",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:01.346Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "551da300-ea8a-4bc7-80fa-53675965d66f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:03.356Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "c7834f50-29bc-43d1-a63e-655601d25615",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:05.371Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "ae391306-32c3-415f-bcd0-1fe1e20537ee",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:07.381Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "5740c04f-1cd6-4e61-984d-1506838294e4",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:36:09.390Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "e23e1482-1ccc-4d2a-a144-09fcba0b9d71",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:11.406Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "c414df00-db26-4fb5-bebb-bfb4e3a19d76",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:36:13.417Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "f8578446-cd24-46cb-b51b-25bfd91366dd",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:15.429Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "2adcd6f1-d06b-4572-82cf-e4bddd2967ec",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:17.443Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "3c3843d2-311a-4ee3-9b39-e93556f1e938",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:19.450Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "6ccd53ae-66f0-4a02-afdc-ea5897611208",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:21.456Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "9b17ac0c-9ea2-407d-9e9e-652732b70b31",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 1,
+      "timestamp": "2025-07-10T15:36:23.471Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 0.8,
+        "download": 0.2,
+        "total": 1
+      }
+    },
+    {
+      "id": "0164c729-eb34-4a7a-a67c-5ad70dc6883f",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:36:25.480Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    },
+    {
+      "id": "7dbfb1e9-ddbf-4457-aee0-67d9cba41bd1",
+      "method": "GET",
+      "url": "/api/generate-api/api-1752161608367/progress",
+      "statusCode": 404,
+      "duration": 2,
+      "timestamp": "2025-07-10T15:36:27.490Z",
+      "userAgentInfo": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ipAddress": "::1",
+      "requestSize": 0,
+      "responseSize": 37,
+      "success": false,
+      "error": "HTTP 404",
+      "endpoint": "/api/generate-api/:projectId/progress",
+      "operation": "GET /api/generate-api/api-1752161608367/progress",
+      "timings": {
+        "ttfb": 1.6,
+        "download": 0.4,
+        "total": 2
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "id": "c7dc3332-699c-420b-90ad-5905db4d5cf1",
+      "timestamp": "2025-07-04T01:36:28.286Z",
+      "resolved": false,
+      "severity": "warning",
+      "type": "memory",
+      "message": "High memory usage detected: 97.7%",
+      "value": 97.74699067668222,
+      "threshold": 80
+    }
+  ],
+  "endpointHealth": [
+    [
+      "GET:/api/health",
+      {
+        "endpoint": "/api/health",
+        "method": "GET",
+        "totalRequests": 12,
+        "successRate": 100,
+        "averageResponseTime": 10.916666666666666,
+        "errorRate": 0,
+        "p95ResponseTime": 57,
+        "p99ResponseTime": 57,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/evaluation/dashboard",
+      {
+        "endpoint": "/api/evaluation/dashboard",
+        "method": "GET",
+        "totalRequests": 32,
+        "successRate": 100,
+        "averageResponseTime": 60.78125,
+        "errorRate": 0,
+        "p95ResponseTime": 63,
+        "p99ResponseTime": 1676,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/",
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "totalRequests": 1,
+        "successRate": 100,
+        "averageResponseTime": 230,
+        "errorRate": 0,
+        "p95ResponseTime": 230,
+        "p99ResponseTime": 230,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/assets/index-BNlNu6Jc.css",
+      {
+        "endpoint": "/assets/index-BNlNu6Jc.css",
+        "method": "GET",
+        "totalRequests": 3,
+        "successRate": 100,
+        "averageResponseTime": 12.333333333333334,
+        "errorRate": 0,
+        "p95ResponseTime": 18,
+        "p99ResponseTime": 18,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/assets/index-CGeX2Q60.js",
+      {
+        "endpoint": "/assets/index-CGeX2Q60.js",
+        "method": "GET",
+        "totalRequests": 3,
+        "successRate": 100,
+        "averageResponseTime": 11,
+        "errorRate": 0,
+        "p95ResponseTime": 22,
+        "p99ResponseTime": 22,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:*",
+      {
+        "endpoint": "*",
+        "method": "GET",
+        "totalRequests": 7,
+        "successRate": 100,
+        "averageResponseTime": 24.571428571428573,
+        "errorRate": 0,
+        "p95ResponseTime": 54,
+        "p99ResponseTime": 54,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "HEAD:/",
+      {
+        "endpoint": "/",
+        "method": "HEAD",
+        "totalRequests": 1,
+        "successRate": 100,
+        "averageResponseTime": 13,
+        "errorRate": 0,
+        "p95ResponseTime": 13,
+        "p99ResponseTime": 13,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/plugins",
+      {
+        "endpoint": "/api/plugins",
+        "method": "GET",
+        "totalRequests": 1,
+        "successRate": 100,
+        "averageResponseTime": 9,
+        "errorRate": 0,
+        "p95ResponseTime": 9,
+        "p99ResponseTime": 9,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/projects",
+      {
+        "endpoint": "/api/projects",
+        "method": "GET",
+        "totalRequests": 3,
+        "successRate": 100,
+        "averageResponseTime": 3,
+        "errorRate": 0,
+        "p95ResponseTime": 4,
+        "p99ResponseTime": 4,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/plugins/auth/google-sheets",
+      {
+        "endpoint": "/api/plugins/auth/google-sheets",
+        "method": "GET",
+        "totalRequests": 2,
+        "successRate": 50,
+        "averageResponseTime": 7.5,
+        "errorRate": 50,
+        "lastError": "HTTP 404",
+        "lastErrorTime": "2025-07-10T00:30:10.640Z",
+        "p95ResponseTime": 10,
+        "p99ResponseTime": 10,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/plugins/auth/jira",
+      {
+        "endpoint": "/api/plugins/auth/jira",
+        "method": "GET",
+        "totalRequests": 1,
+        "successRate": 0,
+        "averageResponseTime": 3,
+        "errorRate": 100,
+        "lastError": "HTTP 404",
+        "lastErrorTime": "2025-07-10T00:31:48.320Z",
+        "p95ResponseTime": 3,
+        "p99ResponseTime": 3,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "POST:/api/chat/message",
+      {
+        "endpoint": "/api/chat/message",
+        "method": "POST",
+        "totalRequests": 2,
+        "successRate": 100,
+        "averageResponseTime": 6.5,
+        "errorRate": 0,
+        "p95ResponseTime": 11,
+        "p99ResponseTime": 11,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "POST:/api/generate-api",
+      {
+        "endpoint": "/api/generate-api",
+        "method": "POST",
+        "totalRequests": 2,
+        "successRate": 100,
+        "averageResponseTime": 2,
+        "errorRate": 0,
+        "p95ResponseTime": 2,
+        "p99ResponseTime": 2,
+        "requestsPerMinute": 1
+      }
+    ],
+    [
+      "GET:/api/generate-api/:projectId/progress",
+      {
+        "endpoint": "/api/generate-api/:projectId/progress",
+        "method": "GET",
+        "totalRequests": 94,
+        "successRate": 100,
+        "averageResponseTime": 0,
+        "errorRate": 0,
+        "lastError": "HTTP 404",
+        "lastErrorTime": "2025-07-10T15:36:27.490Z",
+        "p95ResponseTime": 0,
+        "p99ResponseTime": 0,
+        "requestsPerMinute": 0
+      }
+    ],
+    [
+      "POST:/api/generate-api/:projectId/finalize",
+      {
+        "endpoint": "/api/generate-api/:projectId/finalize",
+        "method": "POST",
+        "totalRequests": 2,
+        "successRate": 100,
+        "averageResponseTime": 0,
+        "errorRate": 0,
+        "p95ResponseTime": 0,
+        "p99ResponseTime": 0,
+        "requestsPerMinute": 0
+      }
+    ]
+  ],
+  "systemMetrics": [
+    {
+      "timestamp": "2025-07-10T20:31:36.640Z",
+      "memoryUsage": {
+        "used": 1714880792,
+        "total": 1749037056,
+        "percentage": 98.04713891664969
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:32:36.639Z",
+      "memoryUsage": {
+        "used": 1714889352,
+        "total": 1749037056,
+        "percentage": 98.04762832880769
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:33:36.641Z",
+      "memoryUsage": {
+        "used": 1714898784,
+        "total": 1749037056,
+        "percentage": 98.04816759697057
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:34:36.641Z",
+      "memoryUsage": {
+        "used": 1715108304,
+        "total": 1749192704,
+        "percentage": 98.05142109716918
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:35:36.641Z",
+      "memoryUsage": {
+        "used": 1715116880,
+        "total": 1749192704,
+        "percentage": 98.0519113804856
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:36:36.642Z",
+      "memoryUsage": {
+        "used": 1715125440,
+        "total": 1749192704,
+        "percentage": 98.05240074909437
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:37:36.642Z",
+      "memoryUsage": {
+        "used": 1715134000,
+        "total": 1749192704,
+        "percentage": 98.05289011770311
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:38:36.642Z",
+      "memoryUsage": {
+        "used": 1715142560,
+        "total": 1749192704,
+        "percentage": 98.05337948631188
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:39:36.643Z",
+      "memoryUsage": {
+        "used": 1715352080,
+        "total": 1749348352,
+        "percentage": 98.05663223330376
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:40:36.644Z",
+      "memoryUsage": {
+        "used": 1715360640,
+        "total": 1749348352,
+        "percentage": 98.05712155837101
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:41:36.644Z",
+      "memoryUsage": {
+        "used": 1715369200,
+        "total": 1749348352,
+        "percentage": 98.05761088343827
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:42:36.645Z",
+      "memoryUsage": {
+        "used": 1715377760,
+        "total": 1749348352,
+        "percentage": 98.05810020850552
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:43:36.647Z",
+      "memoryUsage": {
+        "used": 1715386320,
+        "total": 1749348352,
+        "percentage": 98.05858953357279
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:44:36.646Z",
+      "memoryUsage": {
+        "used": 1715595840,
+        "total": 1749504000,
+        "percentage": 98.06184152765583
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:45:36.647Z",
+      "memoryUsage": {
+        "used": 1715604400,
+        "total": 1749504000,
+        "percentage": 98.06233080918935
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:46:36.649Z",
+      "memoryUsage": {
+        "used": 1715623152,
+        "total": 1749504000,
+        "percentage": 98.06340265583844
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:47:36.653Z",
+      "memoryUsage": {
+        "used": 1715634168,
+        "total": 1749504000,
+        "percentage": 98.06403232001756
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:48:36.652Z",
+      "memoryUsage": {
+        "used": 1715642728,
+        "total": 1749504000,
+        "percentage": 98.06452160155106
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:49:36.653Z",
+      "memoryUsage": {
+        "used": 1715852248,
+        "total": 1749659648,
+        "percentage": 98.067772778629
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:50:36.642Z",
+      "memoryUsage": {
+        "used": 1715860808,
+        "total": 1749659648,
+        "percentage": 98.06826201663651
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:51:36.643Z",
+      "memoryUsage": {
+        "used": 1715869368,
+        "total": 1749659648,
+        "percentage": 98.06875125464401
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:52:36.644Z",
+      "memoryUsage": {
+        "used": 1715877928,
+        "total": 1749659648,
+        "percentage": 98.06924049265152
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:53:36.645Z",
+      "memoryUsage": {
+        "used": 1715886488,
+        "total": 1749659648,
+        "percentage": 98.06972973065903
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:54:36.644Z",
+      "memoryUsage": {
+        "used": 1716096008,
+        "total": 1749815296,
+        "percentage": 98.07298015527233
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:55:36.644Z",
+      "memoryUsage": {
+        "used": 1716104568,
+        "total": 1749815296,
+        "percentage": 98.0734693497616
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:56:36.645Z",
+      "memoryUsage": {
+        "used": 1716113128,
+        "total": 1749815296,
+        "percentage": 98.07395854425083
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:57:36.644Z",
+      "memoryUsage": {
+        "used": 1716121688,
+        "total": 1749815296,
+        "percentage": 98.07444773874008
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:58:36.644Z",
+      "memoryUsage": {
+        "used": 1716130248,
+        "total": 1749815296,
+        "percentage": 98.07493693322932
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T20:59:36.644Z",
+      "memoryUsage": {
+        "used": 1714627768,
+        "total": 1748881408,
+        "percentage": 98.04139721290925
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:00:36.644Z",
+      "memoryUsage": {
+        "used": 1714636328,
+        "total": 1748881408,
+        "percentage": 98.04188666862424
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:01:36.644Z",
+      "memoryUsage": {
+        "used": 1714655104,
+        "total": 1748881408,
+        "percentage": 98.0429602691505
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:02:36.643Z",
+      "memoryUsage": {
+        "used": 1714663664,
+        "total": 1748881408,
+        "percentage": 98.04344972486551
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:03:36.643Z",
+      "memoryUsage": {
+        "used": 1714671008,
+        "total": 1748881408,
+        "percentage": 98.04386965042286
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:04:36.672Z",
+      "memoryUsage": {
+        "used": 1714888328,
+        "total": 1749037056,
+        "percentage": 98.04756978230654
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:05:36.673Z",
+      "memoryUsage": {
+        "used": 1714895896,
+        "total": 1749037056,
+        "percentage": 98.04800247754156
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:06:36.672Z",
+      "memoryUsage": {
+        "used": 1714904456,
+        "total": 1749037056,
+        "percentage": 98.04849188969956
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:07:36.673Z",
+      "memoryUsage": {
+        "used": 1714913016,
+        "total": 1749037056,
+        "percentage": 98.04898130185757
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:08:36.682Z",
+      "memoryUsage": {
+        "used": 1714921576,
+        "total": 1749037056,
+        "percentage": 98.04947071401557
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:09:36.682Z",
+      "memoryUsage": {
+        "used": 1715129608,
+        "total": 1749192704,
+        "percentage": 98.052639030445
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:10:36.682Z",
+      "memoryUsage": {
+        "used": 1715138272,
+        "total": 1749192704,
+        "percentage": 98.05313434465366
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:11:36.683Z",
+      "memoryUsage": {
+        "used": 1715146832,
+        "total": 1749192704,
+        "percentage": 98.05362371326241
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:12:36.684Z",
+      "memoryUsage": {
+        "used": 1715155392,
+        "total": 1749192704,
+        "percentage": 98.05411308187117
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:13:36.628Z",
+      "memoryUsage": {
+        "used": 1715163952,
+        "total": 1749192704,
+        "percentage": 98.05460245047992
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:14:36.628Z",
+      "memoryUsage": {
+        "used": 1715373472,
+        "total": 1749348352,
+        "percentage": 98.05785508865875
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:15:36.628Z",
+      "memoryUsage": {
+        "used": 1715382032,
+        "total": 1749348352,
+        "percentage": 98.058344413726
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:16:36.628Z",
+      "memoryUsage": {
+        "used": 1715400784,
+        "total": 1749348352,
+        "percentage": 98.0594163557425
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:17:36.627Z",
+      "memoryUsage": {
+        "used": 1715409344,
+        "total": 1749348352,
+        "percentage": 98.05990568080976
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:18:36.627Z",
+      "memoryUsage": {
+        "used": 1715417904,
+        "total": 1749348352,
+        "percentage": 98.06039500587703
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:19:36.626Z",
+      "memoryUsage": {
+        "used": 1715627416,
+        "total": 1749504000,
+        "percentage": 98.06364638206028
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:20:36.627Z",
+      "memoryUsage": {
+        "used": 1715635976,
+        "total": 1749504000,
+        "percentage": 98.0641356635938
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:21:36.627Z",
+      "memoryUsage": {
+        "used": 1715644536,
+        "total": 1749504000,
+        "percentage": 98.0646249451273
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:22:36.626Z",
+      "memoryUsage": {
+        "used": 1715653096,
+        "total": 1749504000,
+        "percentage": 98.06511422666081
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:23:36.625Z",
+      "memoryUsage": {
+        "used": 1715661656,
+        "total": 1749504000,
+        "percentage": 98.06560350819431
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:24:36.642Z",
+      "memoryUsage": {
+        "used": 1715871176,
+        "total": 1749659648,
+        "percentage": 98.06885458902691
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:25:36.642Z",
+      "memoryUsage": {
+        "used": 1715879736,
+        "total": 1749659648,
+        "percentage": 98.0693438270344
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:30:08.547Z",
+      "memoryUsage": {
+        "used": 1715883880,
+        "total": 1749659648,
+        "percentage": 98.06958067309786
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:31:08.544Z",
+      "memoryUsage": {
+        "used": 1716102320,
+        "total": 1749815296,
+        "percentage": 98.07334087905927
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:32:08.544Z",
+      "memoryUsage": {
+        "used": 1716110656,
+        "total": 1749815296,
+        "percentage": 98.07381727219739
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:33:08.543Z",
+      "memoryUsage": {
+        "used": 1716119216,
+        "total": 1749815296,
+        "percentage": 98.07430646668665
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:34:08.542Z",
+      "memoryUsage": {
+        "used": 1716127776,
+        "total": 1749815296,
+        "percentage": 98.07479566117588
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:35:08.544Z",
+      "memoryUsage": {
+        "used": 1716142224,
+        "total": 1749815296,
+        "percentage": 98.07562134832315
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:36:08.543Z",
+      "memoryUsage": {
+        "used": 1714641856,
+        "total": 1748881408,
+        "percentage": 98.04220275638038
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:37:08.543Z",
+      "memoryUsage": {
+        "used": 1714674024,
+        "total": 1748881408,
+        "percentage": 98.04404210351123
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:38:08.542Z",
+      "memoryUsage": {
+        "used": 1714682104,
+        "total": 1748881408,
+        "percentage": 98.04450411311136
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:39:08.542Z",
+      "memoryUsage": {
+        "used": 1714690184,
+        "total": 1748881408,
+        "percentage": 98.04496612271151
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:40:08.543Z",
+      "memoryUsage": {
+        "used": 1714895240,
+        "total": 1749037056,
+        "percentage": 98.04796497118927
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:41:08.541Z",
+      "memoryUsage": {
+        "used": 1714910576,
+        "total": 1749037056,
+        "percentage": 98.0488417965228
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:42:08.632Z",
+      "memoryUsage": {
+        "used": 1714918656,
+        "total": 1749037056,
+        "percentage": 98.0493037650084
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:43:08.632Z",
+      "memoryUsage": {
+        "used": 1714926736,
+        "total": 1749037056,
+        "percentage": 98.04976573349398
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:44:08.630Z",
+      "memoryUsage": {
+        "used": 1714934816,
+        "total": 1749037056,
+        "percentage": 98.05022770197958
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:45:08.629Z",
+      "memoryUsage": {
+        "used": 1715143816,
+        "total": 1749192704,
+        "percentage": 98.05345129086474
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:46:08.628Z",
+      "memoryUsage": {
+        "used": 1715162112,
+        "total": 1749192704,
+        "percentage": 98.05449725909673
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:47:08.627Z",
+      "memoryUsage": {
+        "used": 1715170240,
+        "total": 1749192704,
+        "percentage": 98.05496193059813
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:48:08.626Z",
+      "memoryUsage": {
+        "used": 1715178320,
+        "total": 1749192704,
+        "percentage": 98.05542385797649
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:49:08.625Z",
+      "memoryUsage": {
+        "used": 1715186400,
+        "total": 1749192704,
+        "percentage": 98.05588578535485
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:50:08.626Z",
+      "memoryUsage": {
+        "used": 1715388088,
+        "total": 1749348352,
+        "percentage": 98.05869059977826
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:51:08.625Z",
+      "memoryUsage": {
+        "used": 1715403424,
+        "total": 1749348352,
+        "percentage": 98.059567269081
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:52:08.624Z",
+      "memoryUsage": {
+        "used": 1715411504,
+        "total": 1749348352,
+        "percentage": 98.06002915535944
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:53:08.623Z",
+      "memoryUsage": {
+        "used": 1715426416,
+        "total": 1749348352,
+        "percentage": 98.0608815870654
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:54:08.622Z",
+      "memoryUsage": {
+        "used": 1715434496,
+        "total": 1749348352,
+        "percentage": 98.06134347334384
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:55:08.621Z",
+      "memoryUsage": {
+        "used": 1715643496,
+        "total": 1749504000,
+        "percentage": 98.06456549970734
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:56:08.619Z",
+      "memoryUsage": {
+        "used": 1715651576,
+        "total": 1749504000,
+        "percentage": 98.06502734489318
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:57:08.671Z",
+      "memoryUsage": {
+        "used": 1715659656,
+        "total": 1749504000,
+        "percentage": 98.06548919007902
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:58:08.671Z",
+      "memoryUsage": {
+        "used": 1715667736,
+        "total": 1749504000,
+        "percentage": 98.06595103526486
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T21:59:08.673Z",
+      "memoryUsage": {
+        "used": 1715675816,
+        "total": 1749504000,
+        "percentage": 98.0664128804507
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:00:08.672Z",
+      "memoryUsage": {
+        "used": 1715884848,
+        "total": 1749659648,
+        "percentage": 98.06963599814357
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:01:08.674Z",
+      "memoryUsage": {
+        "used": 1715903168,
+        "total": 1749659648,
+        "percentage": 98.070683058926
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:02:08.677Z",
+      "memoryUsage": {
+        "used": 1715911248,
+        "total": 1749659648,
+        "percentage": 98.07114486302653
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:03:08.675Z",
+      "memoryUsage": {
+        "used": 1715919328,
+        "total": 1749659648,
+        "percentage": 98.07160666712707
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:04:08.680Z",
+      "memoryUsage": {
+        "used": 1715927408,
+        "total": 1749659648,
+        "percentage": 98.07206847122761
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:05:08.680Z",
+      "memoryUsage": {
+        "used": 1716138248,
+        "total": 1749815296,
+        "percentage": 98.07539412434076
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:06:08.679Z",
+      "memoryUsage": {
+        "used": 1716146328,
+        "total": 1749815296,
+        "percentage": 98.07585588736333
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:07:08.678Z",
+      "memoryUsage": {
+        "used": 1716154408,
+        "total": 1749815296,
+        "percentage": 98.07631765038587
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:08:08.678Z",
+      "memoryUsage": {
+        "used": 1716162488,
+        "total": 1749815296,
+        "percentage": 98.07677941340845
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:09:08.678Z",
+      "memoryUsage": {
+        "used": 1716170568,
+        "total": 1749815296,
+        "percentage": 98.077241176431
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:10:08.678Z",
+      "memoryUsage": {
+        "used": 1714686896,
+        "total": 1748881408,
+        "percentage": 98.04477811682472
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:11:08.677Z",
+      "memoryUsage": {
+        "used": 1714694976,
+        "total": 1748881408,
+        "percentage": 98.04524012642486
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:12:08.676Z",
+      "memoryUsage": {
+        "used": 1714703056,
+        "total": 1748881408,
+        "percentage": 98.045702136025
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:13:08.676Z",
+      "memoryUsage": {
+        "used": 1714711136,
+        "total": 1748881408,
+        "percentage": 98.04616414562514
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    },
+    {
+      "timestamp": "2025-07-10T22:14:08.683Z",
+      "memoryUsage": {
+        "used": 1714719216,
+        "total": 1748881408,
+        "percentage": 98.04662615522527
+      },
+      "apiCallsPerMinute": 0,
+      "errorRate": 0,
+      "averageResponseTime": 0,
+      "activeOperations": 0
+    }
+  ],
+  "startTime": 1751592928284
+}

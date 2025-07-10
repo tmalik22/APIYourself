@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ObjectTypesApi = void 0;
+const ObservableAPI_1 = require("./ObservableAPI");
+class ObjectTypesApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_1.ObservableTypesApi(configuration, requestFactory, responseProcessor);
+    }
+    getAllWithHttpInfo(param, options) {
+        return this.api.getAllWithHttpInfo(param.fromObjectType, param.toObjectType, options).toPromise();
+    }
+    getAll(param, options) {
+        return this.api.getAll(param.fromObjectType, param.toObjectType, options).toPromise();
+    }
+}
+exports.ObjectTypesApi = ObjectTypesApi;
+//# sourceMappingURL=ObjectParamAPI.js.map

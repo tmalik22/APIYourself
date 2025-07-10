@@ -1,0 +1,44 @@
+{
+  "name": "apiyourself",
+  "version": "2.0.0",
+  "description": "APIYourself - No-code API builder platform",
+  "main": "APIYourself.js",
+  "bin": {
+    "apiyourself": "./APIYourself.js"
+  },
+  "scripts": {
+    "start": "npx concurrently \"npm:start:frontend\" \"npm:start:server\"",
+    "start:frontend": "npm run dev --prefix apifrontend",
+    "start:server": "npm start --prefix packages/server",
+    "setup": "cd apifrontend && npm install && npm run build",
+    "dev": "cd apifrontend && npm run dev",
+    "launch": "npm start --prefix packages/server",
+    "clean": "rm -rf node_modules apifrontend/node_modules apifrontend/dist temp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": [
+    "api",
+    "no-code",
+    "builder"
+  ],
+  "author": "APIYourself Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "child_process": "*",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs": "*",
+    "http": "*",
+    "https": "*",
+    "net": "*",
+    "path": "*",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

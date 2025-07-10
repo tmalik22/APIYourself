@@ -1,0 +1,326 @@
+[
+  {
+    "id": "demo-1",
+    "name": "E-commerce API",
+    "description": "Complete e-commerce backend with authentication",
+    "createdAt": "2025-07-04T00:59:18.309Z",
+    "dataModel": {},
+    "endpoints": [],
+    "settings": {}
+  },
+  {
+    "id": "api-1752161451670",
+    "name": "Telematics Gateway API",
+    "description": "Generated API based on: I want to build a telematics API like Terminal49",
+    "createdAt": "2025-07-10T15:31:23.578Z",
+    "dataModel": {
+      "Vehicle": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "primary": true
+          },
+          {
+            "name": "vin",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "make",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "year",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      "Location": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "primary": true
+          },
+          {
+            "name": "vehicleId",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "timestamp",
+            "type": "datetime",
+            "required": true
+          }
+        ]
+      }
+    },
+    "endpoints": [
+      {
+        "path": "/health",
+        "method": "GET",
+        "description": "Health check endpoint",
+        "auth": false
+      },
+      {
+        "path": "/vehicles",
+        "method": "GET",
+        "description": "List all vehicles",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id",
+        "method": "GET",
+        "description": "Get vehicle details",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id/location",
+        "method": "GET",
+        "description": "Get vehicle location",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id/locations",
+        "method": "GET",
+        "description": "Get location history",
+        "auth": true
+      },
+      {
+        "path": "/auth/login",
+        "method": "POST",
+        "description": "User login",
+        "auth": false
+      },
+      {
+        "path": "/auth/register",
+        "method": "POST",
+        "description": "User registration",
+        "auth": false
+      },
+      {
+        "path": "/auth/refresh",
+        "method": "POST",
+        "description": "Refresh token",
+        "auth": false
+      }
+    ],
+    "settings": {
+      "authentication": "jwt",
+      "database": "postgresql",
+      "cache": "redis",
+      "generated": true,
+      "originalRequirements": "I want to build a telematics API like Terminal49"
+    }
+  },
+  {
+    "id": "api-1752161608367",
+    "name": "Telematics Gateway API",
+    "description": "Generated API based on: I want to build an api that is modular in nature, and allows me to add lots of companies ot track in this one centralized api. This is for logistics, I want to be able to easily add telematics integrations to your application with a single API. Connect your application to the services you need, without worrying about the underlying details. Goodbye to data transformation, API quirks and time consuming integrations. With normalized and constantly synced data models, software development just got a whole lot easier. Let’s introduce you to some key features and concepts of the Terminal API.\n\nQuick Start Already have your keys and just want to get going? Check out our getting started guide to jump straight to making API calls.\n\n​\nWhat is Terminal?\nTerminal makes integrating with telematics and ELDs dramatically easier. We provide a single unified API to consistently sync normalized data from multiple third-party telematics service providers (TSPs).\n\n​\nConcepts\n​\nLink flow\nTerminal makes it easy to authenticate with any Telematics provider using our hosted flow. This flow is designed to be embedded in your application and provides a consistent experience across all of your integrations.\n\n​\nCommon Model\nTo simplify development, all data is standardized into a common model. This allows you to think of all of your customer’s data through the same lens—enabling multiple integrations with a fraction of the develoment effort.\n\n​\nAccount Linking\nWe provide a simple link component that can be embedded in your application. This helps to standardize authentication across all of your integrations. Allow Terminal to worry about the difference between given vendors while you focus on the core product features built on top of this data.\n\n​\nConnections\nAfter a customer successfully links their TSP account, a Connection is created. Connections have settings to control the frequency and access permissions to a given TSP account. As part of the link flow, you are provided with a connection token that you must provide to access this customer’s data.\n\n​\nTelematics Service Provider (TSP)\nTSPs are the platforms that provide fleets with telematics devices and related software. Some popular examples of TSPs include Samsara, Motive or Geotab.\n\n​\nElectronic Logging Devices (ELD)\nElectronic Logging Devices (ELD) are a specific class of telematics device that support tracking a drivers hours of service (HOS).\n\n​\nNext Up\nFollow our getting started guide to learn how easy it is to get started on your integrations roadmap.\n\nTerminal API Architecture\nCore Components\nUnified Data Model\nStandardized vehicle/device schemas\nNormalized location/telemetry formats\nConsistent ELD/HOS data structures\nProvider Modules\nPlug-in architecture for TSPs (Samsara, Motive, Geotab)\nAdapter pattern for vendor-specific transformations\nAutomatic schema mapping\nConnection Management\n\n{\n\"connection_id\": \"conn_123\",\n\"tsp\": \"samsara\",\n\"status\": \"active\",\n\"sync_frequency\": \"5m\",\n\"permissions\": [\"location\", \"eld\", \"metrics\"]\n}\n\nAPI Reference\nEnvironments\nAuthentication\nRate Limits\nResource Expansion\nPagination\nSerialization\nAuthentication\nPOST\nPublic Token Exchange\nVehicles\nGET\nList Vehicles\nGET\nGet Vehicle\nGET\nLatest Vehicle Locations\nGET\nHistorical Vehicle Locations\nGET\nHistorical Vehicle Stats\nDrivers\nGET\nList Drivers\nGET\nGet Driver\nHours of Service\nGET\nAvailable Time for Drivers\nGET\nList HOS Logs\nGET\nList HOS Daily Logs\nTrips\nGET\nList Historical Trips\nDevices\nGET\nList Devices\nSafety\nGET\nList Safety Events\nGET\nGet Safety Event\nGET\nGet Event Camera Media\nGroups\nGET\nList Groups\nTrailers\nGET\nList Trailers\nGET\nLatest Trailer Locations\nIFTA\nGET\nGet IFTA Summary\nConnections\nGET\nList All Connections\nGET\nGet Current Connection\nPATCH\nUpdate Current Connection\nData Management\nPOST\nRequest Sync\nGET\nList Sync History\nGET\nGet Sync Job Status\nPOST\nRetry Sync\nPOST\nCancel Sync\nPOST\nPassthrough\nProviders\nGET\nList Providers\nIssues\nGET\nList Issues\nPOST\nResolve Issue\nWebhook Events\nEvent Types\nconnection.created\nconnection.disconnected\nconnection.reconnected\nconnection.completed\nconnection.updated\nsync.requested\nsync.started\nsync.completed\nsync.failed\nconnection.first_sync_completed\nissue.reported\nissue.resolved\nunsupported_provider.requested\nvehicle.added\nvehicle.modified\nvehicle.removed\ndriver.added\ndriver.modified\ndriver.removed\nsafety_event.added\nsafety_event.modified",
+    "createdAt": "2025-07-10T15:33:36.501Z",
+    "dataModel": {
+      "User": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "primary": true
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "createdAt",
+            "type": "datetime",
+            "required": true
+          },
+          {
+            "name": "updatedAt",
+            "type": "datetime",
+            "required": true
+          }
+        ]
+      },
+      "Vehicle": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "primary": true
+          },
+          {
+            "name": "vin",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "make",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "year",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "required": true
+          }
+        ]
+      },
+      "Location": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "primary": true
+          },
+          {
+            "name": "vehicleId",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "required": true
+          },
+          {
+            "name": "timestamp",
+            "type": "datetime",
+            "required": true
+          }
+        ]
+      }
+    },
+    "endpoints": [
+      {
+        "path": "/health",
+        "method": "GET",
+        "description": "Health check endpoint",
+        "auth": false
+      },
+      {
+        "path": "/users",
+        "method": "GET",
+        "description": "List all users",
+        "auth": true
+      },
+      {
+        "path": "/users",
+        "method": "POST",
+        "description": "Create new user",
+        "auth": true
+      },
+      {
+        "path": "/users/:id",
+        "method": "GET",
+        "description": "Get user by ID",
+        "auth": true
+      },
+      {
+        "path": "/users/:id",
+        "method": "PUT",
+        "description": "Update user",
+        "auth": true
+      },
+      {
+        "path": "/users/:id",
+        "method": "DELETE",
+        "description": "Delete user",
+        "auth": true
+      },
+      {
+        "path": "/vehicles",
+        "method": "GET",
+        "description": "List all vehicles",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id",
+        "method": "GET",
+        "description": "Get vehicle details",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id/location",
+        "method": "GET",
+        "description": "Get vehicle location",
+        "auth": true
+      },
+      {
+        "path": "/vehicles/:id/locations",
+        "method": "GET",
+        "description": "Get location history",
+        "auth": true
+      },
+      {
+        "path": "/auth/login",
+        "method": "POST",
+        "description": "User login",
+        "auth": false
+      },
+      {
+        "path": "/auth/register",
+        "method": "POST",
+        "description": "User registration",
+        "auth": false
+      },
+      {
+        "path": "/auth/refresh",
+        "method": "POST",
+        "description": "Refresh token",
+        "auth": false
+      }
+    ],
+    "settings": {
+      "authentication": "jwt",
+      "database": "postgresql",
+      "cache": "redis",
+      "generated": true,
+      "originalRequirements": "I want to build an api that is modular in nature, and allows me to add lots of companies ot track in this one centralized api. This is for logistics, I want to be able to easily add telematics integrations to your application with a single API. Connect your application to the services you need, without worrying about the underlying details. Goodbye to data transformation, API quirks and time consuming integrations. With normalized and constantly synced data models, software development just got a whole lot easier. Let’s introduce you to some key features and concepts of the Terminal API.\n\nQuick Start Already have your keys and just want to get going? Check out our getting started guide to jump straight to making API calls.\n\n​\nWhat is Terminal?\nTerminal makes integrating with telematics and ELDs dramatically easier. We provide a single unified API to consistently sync normalized data from multiple third-party telematics service providers (TSPs).\n\n​\nConcepts\n​\nLink flow\nTerminal makes it easy to authenticate with any Telematics provider using our hosted flow. This flow is designed to be embedded in your application and provides a consistent experience across all of your integrations.\n\n​\nCommon Model\nTo simplify development, all data is standardized into a common model. This allows you to think of all of your customer’s data through the same lens—enabling multiple integrations with a fraction of the develoment effort.\n\n​\nAccount Linking\nWe provide a simple link component that can be embedded in your application. This helps to standardize authentication across all of your integrations. Allow Terminal to worry about the difference between given vendors while you focus on the core product features built on top of this data.\n\n​\nConnections\nAfter a customer successfully links their TSP account, a Connection is created. Connections have settings to control the frequency and access permissions to a given TSP account. As part of the link flow, you are provided with a connection token that you must provide to access this customer’s data.\n\n​\nTelematics Service Provider (TSP)\nTSPs are the platforms that provide fleets with telematics devices and related software. Some popular examples of TSPs include Samsara, Motive or Geotab.\n\n​\nElectronic Logging Devices (ELD)\nElectronic Logging Devices (ELD) are a specific class of telematics device that support tracking a drivers hours of service (HOS).\n\n​\nNext Up\nFollow our getting started guide to learn how easy it is to get started on your integrations roadmap.\n\nTerminal API Architecture\nCore Components\nUnified Data Model\nStandardized vehicle/device schemas\nNormalized location/telemetry formats\nConsistent ELD/HOS data structures\nProvider Modules\nPlug-in architecture for TSPs (Samsara, Motive, Geotab)\nAdapter pattern for vendor-specific transformations\nAutomatic schema mapping\nConnection Management\n\n{\n\"connection_id\": \"conn_123\",\n\"tsp\": \"samsara\",\n\"status\": \"active\",\n\"sync_frequency\": \"5m\",\n\"permissions\": [\"location\", \"eld\", \"metrics\"]\n}\n\nAPI Reference\nEnvironments\nAuthentication\nRate Limits\nResource Expansion\nPagination\nSerialization\nAuthentication\nPOST\nPublic Token Exchange\nVehicles\nGET\nList Vehicles\nGET\nGet Vehicle\nGET\nLatest Vehicle Locations\nGET\nHistorical Vehicle Locations\nGET\nHistorical Vehicle Stats\nDrivers\nGET\nList Drivers\nGET\nGet Driver\nHours of Service\nGET\nAvailable Time for Drivers\nGET\nList HOS Logs\nGET\nList HOS Daily Logs\nTrips\nGET\nList Historical Trips\nDevices\nGET\nList Devices\nSafety\nGET\nList Safety Events\nGET\nGet Safety Event\nGET\nGet Event Camera Media\nGroups\nGET\nList Groups\nTrailers\nGET\nList Trailers\nGET\nLatest Trailer Locations\nIFTA\nGET\nGet IFTA Summary\nConnections\nGET\nList All Connections\nGET\nGet Current Connection\nPATCH\nUpdate Current Connection\nData Management\nPOST\nRequest Sync\nGET\nList Sync History\nGET\nGet Sync Job Status\nPOST\nRetry Sync\nPOST\nCancel Sync\nPOST\nPassthrough\nProviders\nGET\nList Providers\nIssues\nGET\nList Issues\nPOST\nResolve Issue\nWebhook Events\nEvent Types\nconnection.created\nconnection.disconnected\nconnection.reconnected\nconnection.completed\nconnection.updated\nsync.requested\nsync.started\nsync.completed\nsync.failed\nconnection.first_sync_completed\nissue.reported\nissue.resolved\nunsupported_provider.requested\nvehicle.added\nvehicle.modified\nvehicle.removed\ndriver.added\ndriver.modified\ndriver.removed\nsafety_event.added\nsafety_event.modified"
+    }
+  }
+]

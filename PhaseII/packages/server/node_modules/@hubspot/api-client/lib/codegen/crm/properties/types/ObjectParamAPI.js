@@ -1,0 +1,103 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ObjectGroupsApi = exports.ObjectCoreApi = exports.ObjectBatchApi = void 0;
+const ObservableAPI_1 = require("./ObservableAPI");
+class ObjectBatchApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_1.ObservableBatchApi(configuration, requestFactory, responseProcessor);
+    }
+    archiveWithHttpInfo(param, options) {
+        return this.api.archiveWithHttpInfo(param.objectType, param.batchInputPropertyName, options).toPromise();
+    }
+    archive(param, options) {
+        return this.api.archive(param.objectType, param.batchInputPropertyName, options).toPromise();
+    }
+    createWithHttpInfo(param, options) {
+        return this.api.createWithHttpInfo(param.objectType, param.batchInputPropertyCreate, options).toPromise();
+    }
+    create(param, options) {
+        return this.api.create(param.objectType, param.batchInputPropertyCreate, options).toPromise();
+    }
+    readWithHttpInfo(param, options) {
+        return this.api.readWithHttpInfo(param.objectType, param.batchReadInputPropertyName, options).toPromise();
+    }
+    read(param, options) {
+        return this.api.read(param.objectType, param.batchReadInputPropertyName, options).toPromise();
+    }
+}
+exports.ObjectBatchApi = ObjectBatchApi;
+const ObservableAPI_2 = require("./ObservableAPI");
+class ObjectCoreApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_2.ObservableCoreApi(configuration, requestFactory, responseProcessor);
+    }
+    archiveWithHttpInfo(param, options) {
+        return this.api.archiveWithHttpInfo(param.objectType, param.propertyName, options).toPromise();
+    }
+    archive(param, options) {
+        return this.api.archive(param.objectType, param.propertyName, options).toPromise();
+    }
+    createWithHttpInfo(param, options) {
+        return this.api.createWithHttpInfo(param.objectType, param.propertyCreate, options).toPromise();
+    }
+    create(param, options) {
+        return this.api.create(param.objectType, param.propertyCreate, options).toPromise();
+    }
+    getAllWithHttpInfo(param, options) {
+        return this.api.getAllWithHttpInfo(param.objectType, param.archived, param.properties, options).toPromise();
+    }
+    getAll(param, options) {
+        return this.api.getAll(param.objectType, param.archived, param.properties, options).toPromise();
+    }
+    getByNameWithHttpInfo(param, options) {
+        return this.api.getByNameWithHttpInfo(param.objectType, param.propertyName, param.archived, param.properties, options).toPromise();
+    }
+    getByName(param, options) {
+        return this.api.getByName(param.objectType, param.propertyName, param.archived, param.properties, options).toPromise();
+    }
+    updateWithHttpInfo(param, options) {
+        return this.api.updateWithHttpInfo(param.objectType, param.propertyName, param.propertyUpdate, options).toPromise();
+    }
+    update(param, options) {
+        return this.api.update(param.objectType, param.propertyName, param.propertyUpdate, options).toPromise();
+    }
+}
+exports.ObjectCoreApi = ObjectCoreApi;
+const ObservableAPI_3 = require("./ObservableAPI");
+class ObjectGroupsApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_3.ObservableGroupsApi(configuration, requestFactory, responseProcessor);
+    }
+    archiveWithHttpInfo(param, options) {
+        return this.api.archiveWithHttpInfo(param.objectType, param.groupName, options).toPromise();
+    }
+    archive(param, options) {
+        return this.api.archive(param.objectType, param.groupName, options).toPromise();
+    }
+    createWithHttpInfo(param, options) {
+        return this.api.createWithHttpInfo(param.objectType, param.propertyGroupCreate, options).toPromise();
+    }
+    create(param, options) {
+        return this.api.create(param.objectType, param.propertyGroupCreate, options).toPromise();
+    }
+    getAllWithHttpInfo(param, options) {
+        return this.api.getAllWithHttpInfo(param.objectType, options).toPromise();
+    }
+    getAll(param, options) {
+        return this.api.getAll(param.objectType, options).toPromise();
+    }
+    getByNameWithHttpInfo(param, options) {
+        return this.api.getByNameWithHttpInfo(param.objectType, param.groupName, options).toPromise();
+    }
+    getByName(param, options) {
+        return this.api.getByName(param.objectType, param.groupName, options).toPromise();
+    }
+    updateWithHttpInfo(param, options) {
+        return this.api.updateWithHttpInfo(param.objectType, param.groupName, param.propertyGroupUpdate, options).toPromise();
+    }
+    update(param, options) {
+        return this.api.update(param.objectType, param.groupName, param.propertyGroupUpdate, options).toPromise();
+    }
+}
+exports.ObjectGroupsApi = ObjectGroupsApi;
+//# sourceMappingURL=ObjectParamAPI.js.map

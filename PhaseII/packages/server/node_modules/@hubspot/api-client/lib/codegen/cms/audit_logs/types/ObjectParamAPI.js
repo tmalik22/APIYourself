@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ObjectAuditLogsApi = void 0;
+const ObservableAPI_1 = require("./ObservableAPI");
+class ObjectAuditLogsApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_1.ObservableAuditLogsApi(configuration, requestFactory, responseProcessor);
+    }
+    getPageWithHttpInfo(param = {}, options) {
+        return this.api.getPageWithHttpInfo(param.userId, param.eventType, param.objectType, param.objectId, param.after, param.before, param.limit, param.sort, options).toPromise();
+    }
+    getPage(param = {}, options) {
+        return this.api.getPage(param.userId, param.eventType, param.objectType, param.objectId, param.after, param.before, param.limit, param.sort, options).toPromise();
+    }
+}
+exports.ObjectAuditLogsApi = ObjectAuditLogsApi;
+//# sourceMappingURL=ObjectParamAPI.js.map

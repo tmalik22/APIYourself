@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ObjectBusinessUnitApi = void 0;
+const ObservableAPI_1 = require("./ObservableAPI");
+class ObjectBusinessUnitApi {
+    constructor(configuration, requestFactory, responseProcessor) {
+        this.api = new ObservableAPI_1.ObservableBusinessUnitApi(configuration, requestFactory, responseProcessor);
+    }
+    getByUserIDWithHttpInfo(param, options) {
+        return this.api.getByUserIDWithHttpInfo(param.userId, param.properties, param.name, options).toPromise();
+    }
+    getByUserID(param, options) {
+        return this.api.getByUserID(param.userId, param.properties, param.name, options).toPromise();
+    }
+}
+exports.ObjectBusinessUnitApi = ObjectBusinessUnitApi;
+//# sourceMappingURL=ObjectParamAPI.js.map

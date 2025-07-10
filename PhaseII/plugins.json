@@ -1,0 +1,128 @@
+[
+  {
+    "id": "auth",
+    "name": "Authentication",
+    "version": "1.0.0",
+    "enabled": true,
+    "metadata": {}
+  },
+  {
+    "id": "cors",
+    "name": "CORS",
+    "version": "1.0.0",
+    "enabled": true,
+    "metadata": {}
+  },
+  {
+    "id": "custom-dataset",
+    "name": "Custom Dataset Upload",
+    "version": "1.0.0",
+    "enabled": true,
+    "metadata": {}
+  },
+  {
+    "id": "rate-limiter",
+    "name": "Rate Limiter",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "data-validator",
+    "name": "Data Validator",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "jwt-auth",
+    "name": "JWT Authentication",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "email-notifications",
+    "name": "Email Notifications",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "image-upload",
+    "name": "Image Upload & Resize",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "redis-cache",
+    "name": "Redis Cache",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "postgresql-db",
+    "name": "PostgreSQL Database",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "stripe-payments",
+    "name": "Stripe Payments",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "google-sheets",
+    "name": "Google Sheets API",
+    "version": "1.0.0",
+    "enabled": true,
+    "metadata": {}
+  },
+  {
+    "id": "slack",
+    "name": "Slack Integration",
+    "version": "1.0.0",
+    "enabled": true,
+    "metadata": {}
+  },
+  {
+    "id": "notion",
+    "name": "Notion API",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable API",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot CRM",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "n8n",
+    "name": "n8n Workflow Automation",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  },
+  {
+    "id": "alpha-vantage",
+    "name": "Alpha Vantage Financial Data",
+    "version": "1.0.0",
+    "enabled": false,
+    "metadata": {}
+  }
+]
