@@ -1,11 +1,23 @@
 {
+  "name": "podscribe",
+  "version": "1.0.0",
+  "main": "simple-working-server.ts",
   "dependencies": {
+    "archiver": "^7.0.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "csv-parse": "^5.6.0",
+    "express": "^5.1.0",
     "multer": "^2.0.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/multer": "^2.0.0",
-    "@types/xlsx": "^0.0.35"
+    "@types/xlsx": "^0.0.35",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "ts-node simple-working-server.ts"
   }
 }
